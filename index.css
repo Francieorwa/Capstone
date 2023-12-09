@@ -3,3 +3,54 @@
     margin: 0;
     font-family: "Poppins";
   }
+  /* Navbar */
+.logo {
+  max-width: 90px;
+  height: auto;
+}
+.nav {
+  background-color: white;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:sticky;
+  top:0;
+
+;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: flex-end;
+  font-weight: 800;
+}
+.nav li a {
+  text-decoration: none;
+  color: #A2783A;
+  text-transform: uppercase;
+  transition: border-bottom 0.3s ease-in-out;
+}
+.nav li a:hover {
+  color: black;
+  border-bottom: 4px solid #A2783A; 
+}
+.nav li {
+  margin: auto 20px;
+}
+.icon {
+  margin: 20px;
+  display: flex;
+}
+
+.glass-icon {
+  color: #A2783A;
+  padding: 8px;
+  margin: 15px;
+}
+
+.glass-icon:hover {
+  color: #000;
+}
