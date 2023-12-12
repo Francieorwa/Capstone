@@ -1,49 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
     <script
-    src="https://kit.fontawesome.com/6587bf79be.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/6587bf79be.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Capstone</title>
-</head>
-<body>
-        <!-- Navbar -->
-        <nav class="nav">
-            <img class="logo" src="./assets/logo.png" alt="logo" />
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#book">Book</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#gallery">Gallery</a></li>
-            </ul>
-            <div class="icon">
-              <a href="#" class="glass-icon">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-              <a href="#" class="glass-icon">
-                <i class="fa-brands fa-x-twitter"></i>
-              </a>
-              <a
-                href="#"
-                class="glass-icon"
-              >
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="#" class="glass-icon">
-                <i class="fa-brands fa-whatsapp"></i>
-              </a>
-              <a href="mailto:francieorwa@gmail.com" class="glass-icon">
-                <i class="fa-solid fa-envelope"></i>
-              </a>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav">
+      <img class="logo" src="./assets/logo.png" alt="logo" />
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#book">Book</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#gallerys">Gallery</a></li>
+      </ul>
+      <div class="icon">
+        <a href="#" class="glass-icon">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="glass-icon">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="#" class="glass-icon">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="glass-icon">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="#" class="glass-icon">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+      
+    </nav>
+    <div id="home">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="slides">
+          <label for="slide1" class="slide">
+            <img
+              src="./assets/wedding-ceremony-white-style.jpg"
+              alt="Image 1"
+            />
+          </label>
+          <label for="slide2" class="slide">
+            <img
+              src="./assets/8740609.jpg"
+              alt="Image 2"
+            />
+          </label>
+          <label for="slide3" class="slide">
+            <img src="./assets/baby.jpg" alt="Image 3" />
+          </label>
+          <label for="slide3" class="slide">
+            <img src="./assets/recep.jpg" alt="Image 3" />
+          </label>
+          <label for="slide3" class="slide">
+            <img
+              src="./assets/hapy b.jpg"
+              alt="Image 3"
+            />
+          </label>
+        </div>
+        <div class="card-container" id="events">
+          <div class="event-card">
+            <img src="./assets/baby-shoes-with-it-s-boy-lettering.jpg" alt="Baby Shower Image" />
+            <div class="card-content">
+              <div class="info-container">
+                <div class="discount-container">
+                  <i class="fas fa-tag"></i> 
+                  <span class="discount">20% off</span>
+                </div>
+                <div class="countdown-container">
+                  <i class="fas fa-clock"></i>
+                  <div class="countdown"></div>
+                </div>
+                
+              </div>
+              <h3>Baby Shower</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, a dolore assume eligendi dolor</p>
+              
+             
+          
+              <a href="#" class="btn">Book</a>
             </div>
-          </nav>
-    
-</body>
+          </div>
+          
+          
+          <div class="event-card">
+            <img
+              src="./assets/mortar-board-graduation-diploma.jpg"
+              alt=""
+            />
+            <div class="card-content">
+              <div class="info-container">
+                <div class="discount-container">
+                  <i class="fas fa-tag"></i> 
+                  <span class="discount">20% off</span>
+                </div>
+                <div class="countdown-container">
+                  <i class="fas fa-clock"></i>
+                  <div class="countdown"></div>
+                </div>
+                
+              </div>
+              <h3>Graduation Party</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
+                a dolore assume eligendi dolor
+              </p>
+              <a href="" class="btn">Book</a>
+            </div>
+          </div>
+          <div class="event-card">
+            <img
+              src="./assets/flowers-with-bride-groom-accessories.jpg "
+              alt=""
+            />
+            <div class="card-content">
+              <div class="info-container">
+                <div class="discount-container">
+                  <i class="fas fa-tag"></i> 
+                  <span class="discount">20% off</span>
+                </div>
+                <div class="countdown-container">
+                  <i class="fas fa-clock"></i>
+                  <div class="countdown"></div>
+                </div>
+                
+              </div>
+              <h3>Wedding</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
+                a dolore assume eligendi dolor
+              </p>
+              <a href="" class="btn">Book</a>
+            </div>
+          </div>
+          <div class="event-card">
+            <img
+              src="./assets/colorful-assortment-birthday-party-celebration.jpg"
+              alt=""
+            />
+            <div class="card-content">
+              <div class="info-container">
+                <div class="discount-container">
+                  <i class="fas fa-tag"></i> 
+                  <span class="discount">20% off</span>
+                </div>
+                <div class="countdown-container">
+                  <i class="fas fa-clock"></i>
+                  <div class="countdown"></div>
+                </div>
+                
+              </div>
+              <h3>Birthday Party</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
+                a dolore assume eligendi dolor
+              </p>
+              <a href="" class="btn">Book</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="log">
+            <img src="./assets/log1.png" alt="Flower" />
+            <h1>KingEvents</h1>
+          </div>
+          <div class="log">
+            <img src="./assets/log1.png" alt="Flower" />
+            <h1>KingEvents</h1>
+          </div>
+          <div class="log">
+            <img src="./assets/log1.png" alt="Flower" />
+            <h1>KingEvents</h1>
+          </div>
+          <div class="log">
+            <img src="./assets/log1.png" alt="Flower" />
+            <h1>KingEvents</h1>
+          </div>
+        </div>
+        <div class="about-section" id="about">
+          <div class="text-content">
+            <h2>ABOUT US</h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+              nisl eget nisl convallis fermentum. Mauris vitae quam vitae erat
+              fermentum auctor nec non magna. Praesent nec lacus id eros
+              consequat bibendum. Pellentesque habitant morbi tristique senectus
+              et netus et malesuada fames ac turpis egestas. Vestibulum ante
+              ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+              curae; Duis at est id leo rutrum sodales.
+            </p>
+            <p>
+              Phasellus fermentum, libero a egestas aliquet, orci metus lacinia
+              nulla, non sollicitudin nisl augue eget leo. Integer ultrices,
+              elit in varius consectetur, mi est laoreet justo, eget posuere
+              sapien libero vitae felis. Aenean convallis, massa vel scelerisque
+              aliquet, elit odio dapibus diam, a consequat lorem velit ac nunc.
+              Sed dictum, dolor sed hendrerit blandit, arcu magna aliquam est,
+              in porttitor lorem purus eget ipsum.
+            </p>
+          </div>
+          <div class="images-content">
+            <img
+              src="./assets/golden-wedding-rings.jpg"
+              class="image1"
+              alt="Descriptive Text for First Image"
+            />
+            <img
+              src="./assets/golden-wedding-rings.jpg"
+              class="image2"
+              alt="Descriptive Text for Second Image"
+            />
+          </div>
+        </div>
+        <div class="contact-section" id="contact">
+          <h2>CONTACT US</h2>
+          <div class="info-cards">
+            <div class="card address">
+              <h4 class="">Address</h4>
+              <p>Nairobi, Moi Avenue</p>
+            </div>
+            <div class="card phone">
+              <h4>Call Us</h4>
+              <p>+2547123456789</p>
+            </div>
+            <div class="card email">
+              <h4>Mail Us</h4>
+              <p>kingsevents@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="map-form-container">
+            <div class="map">
+              
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9645684044293!2d36.82194621432585!3d-1.2863898359937736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f18278c0e30ef%3A0xa3e1845113ef4b60!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2s!4v1622132022756!5m2!1sen!2s"
+                width="500"
+                height="300"
+                loading="lazy"
+                style="border: 0px"
+              ></iframe>
+            </div>
+            <div class="contact-form">
+              <h3>Contact</h3>
+              <form   action="https://formspree.io/f/xzblnyrb"
+              method="POST"
+              >
+                <div class="form-row">
+                  <input type="text" placeholder="Name" id="name" name="name" required />
+                  <input type="email" placeholder="Email" id="email" name="email" required />
+                </div>
+                <input type="text" placeholder="Subject" id="subject" name="subject" required />
+                <textarea placeholder="Message" id="message" name="message" required></textarea>
+                <button id="btn" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="services-section" id="services">
+          <h2>OUR SERVICES</h2>
+          <div class="service-cards">
+            <div class="service-card">
+              <img src="./assets/baby-shoes-with-it-s-boy-lettering.jpg" alt="Baby Shower">
+              <h5>Baby Showers</h5>
+            </div>
+            <div class="service-card">
+              <img src="./assets/3d-render-graduation-cap-with-diploma-certificate.jpg" alt="Graduation">
+              <h5>Graduation Party</h5>
+            </div>
+            <div class="service-card">
+              <img src="./assets/golden-wedding-rings.jpg" alt="Wedding">
+              <h5>Weddings</h5>
+            </div>
+            <div class="service-card">
+              <img src="./assets/colorful-assortment-birthday-party-celebration.jpg" alt="Birthday">
+              <h5>Birthday Party</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-section" id="gallerys">
+          <h2>GALLERY</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item"><img src="./assets/young-female-african-american-student-with-diploma-poses-outdoorsxa.jpg" alt="Gallery Image 1"></div>
+            <div class="gallery-item"><img src="./assets/colorful-assortment-birthday-party-celebration.jpg" alt="Gallery Image 2"></div>
+            <div class="gallery-item"><img src="./assets/mortar-board-graduation-diploma.jpg" alt="Gallery Image 3"></div>
+            <div class="gallery-item"><img src="./assets/pexels-maahid-photos-6609958.jpg" alt="Gallery Image 4"></div>
+            <div class="gallery-item"><img src="./assets/pexels-samuel-peter-17192519.jpg" alt="Gallery Image 1"></div>
+            <div class="gallery-item"><img src="./assets/pexels-tembela-bohle-1114425.jpg" alt="Gallery Image 2"></div>
+            <div class="gallery-item"><img src="./assets/pexels-mushtaq-hussain-6871075.jpg" alt="Gallery Image 3"></div>
+            <div class="gallery-item"><img src="./assets/golden-wedding-rings.jpg" alt="Gallery Image 4"></div>
+          </div>
+        </div>
+        
+        <div class="rsvp-container" id="book">
+          <div class="image-section">
+              <img src="./assets/Calendar-cuate.png" alt="Event Image">
+          </div>
+          <div class="form-section">
+              <form id="rsvp-form"   action="https://formspree.io/f/xwkdgaon"
+              method="POST">
+                  <h3>RSVP</h3>
+                  <select name="event_type" required>
+                    <option value="">Select Event Type</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="baby_shower">Baby Shower</option>
+                    <option value="graduation">Graduation</option>
+                    <option value="other">Other</option>
+                  </select>
+      
+                
+                  <div class="input-group">
+                      <input type="text" placeholder="Full Name" name="full_name" required>
+                      <input type="email" placeholder="Contact Email" name="contact_email">
+                  </div>
+      
+              
+                  <div class="input-group">
+                      <input type="tel" placeholder="Contact Phone Number" name="contact_phone"  required>
+                      <input type="number" placeholder="Number of Guests Attending" name="number_of_guests" required>
+                  </div>
+      
+                  
+                  <textarea placeholder="Additional Comments/Requests" name="additional_comments" required ></textarea>
+                  <label><input type="checkbox" name="updates_via_email"> Receive updates about the event via email</label>
+                  <button id="rsvp" type="submit">Book</button>
+              </form>
+          </div>
+      </div>
+      
+      </section>
+      <footer class="footer">
+        <div class="footer-section">
+          <h2>King Events</h2>
+          <p class="event">Events and Weddings</p>
+          <h3>News Letter</h3>
+          <form class="newsletter-form">
+            <input type="email" placeholder="E-mail" required />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p>Sign up with your email address to receive news and updates</p>
+        </div>
+        <div class="footer-section">
+          <h3>LINKS</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#abot">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#book">Book</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>CONTACT US</h3>
+          <div>
+            <p class="cont">Any where, Any city,445533</p>
+            <p class="cont">Call Us: +2547123456789</p>
+            <p>kingsevents@gmail.com</p>
+          </div>
+
+          <div class="social-icons">
+            
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+          </div>
+          <p class="rights-reserved">
+            © 2023 King Events. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/index.js"></script>
+  </body>
 </html>
