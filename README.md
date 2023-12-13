@@ -37,4 +37,4 @@ This project is built using a mix of modern technologies for an enhanced user ex
 This project is licensed under the MIT License. For more information, please refer to the [LICENSE](LICENSE) file.
 
 ---
-Copyright © 2021 [Your Name](https://github.com/yourusername).<br>
+Copyright © 2021 [Your Name](https://github.com/Francieorwa).<br>
